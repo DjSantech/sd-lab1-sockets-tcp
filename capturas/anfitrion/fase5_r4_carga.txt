@@ -1,0 +1,2 @@
+### Carga contra servidor_r4.py recien arrancado
+10 clientes simultaneos x 200 mensajes = 2000; ESTADISTICAS (incluye esta) -> 'mensajes atendidos desde el arranque: 2001'; esperado 2001

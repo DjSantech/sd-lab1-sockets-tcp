@@ -1,0 +1,15 @@
+[servidor] R4 (un hilo por cliente) en ('0.0.0.0', 5002)
+[servidor] comandos: HORA, ECO <texto>, ESTADISTICAS, ADIOS
+[servidor] Thread-1 (atender_en_hilo) atiende 127.0.0.1:49184 (hilos de clientes activos: 1)
+[servidor] conexion desde 127.0.0.1:49184
+[servidor] 49184: 'ECO soy A' -> 'soy A'
+[servidor] Thread-2 (atender_en_hilo) atiende 127.0.0.1:49185 (hilos de clientes activos: 2)
+[servidor] conexion desde 127.0.0.1:49185
+[servidor] Thread-3 (atender_en_hilo) atiende 127.0.0.1:49186 (hilos de clientes activos: 3)
+[servidor] conexion desde 127.0.0.1:49186
+[servidor] 49186: 'ECO soy C' -> 'soy C'
+[servidor] 49186: fin de la conexion
+[servidor] 49185: 'ECO soy B' -> 'soy B'
+[servidor] 49185: fin de la conexion
+[servidor] 49184: 'ADIOS' -> 'ADIOS'
+[servidor] 49184: fin de la conexion

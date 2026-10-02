@@ -1,0 +1,25 @@
+[servidor] socket de escucha en ('0.0.0.0', 5000)
+[servidor] bitacora: bitacora.log
+[servidor] esperando conexiones... (Ctrl+C para terminar)
+
+[servidor] ---- conexion aceptada ----
+[servidor] extremo local  : ('127.0.0.1', 5000)
+[servidor] extremo remoto : ('127.0.0.1', 49840)  <- getpeername()
+[servidor] recibidos 4 bytes: b'hola'
+[servidor] enviados  4 bytes: b'HOLA'
+[servidor] recibidos 7 bytes: b'ma\xc3\xb1ana'
+[servidor] enviados  7 bytes: b'MA\xc3\xb1ANA'
+[servidor] recv() devolvio 0 bytes -> el cliente cerro la conexion
+[servidor] registrado en bitacora.log: {'mensajes': 2, 'bytes_recibidos': 11, 'bytes_enviados': 11}, cierre=normal
+[servidor] conexion cerrada. Vuelvo a accept()
+
+[servidor] ---- conexion aceptada ----
+[servidor] extremo local  : ('127.0.0.1', 5000)
+[servidor] extremo remoto : ('127.0.0.1', 49841)  <- getpeername()
+[servidor] recibidos 3 bytes: b'uno'
+[servidor] enviados  3 bytes: b'UNO'
+[servidor] recibidos 7 bytes: b'dostres'
+[servidor] enviados  7 bytes: b'DOSTRES'
+[servidor] recv() devolvio 0 bytes -> el cliente cerro la conexion
+[servidor] registrado en bitacora.log: {'mensajes': 2, 'bytes_recibidos': 10, 'bytes_enviados': 10}, cierre=normal
+[servidor] conexion cerrada. Vuelvo a accept()

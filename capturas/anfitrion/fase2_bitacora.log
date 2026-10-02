@@ -1,0 +1,3 @@
+2026-09-30T13:59:24-05:00 cliente=127.0.0.1:49840 mensajes=2 bytes_recibidos=11 bytes_enviados=11 cierre=normal
+2026-09-30T13:59:25-05:00 cliente=127.0.0.1:49841 mensajes=2 bytes_recibidos=10 bytes_enviados=10 cierre=normal
+2026-09-30T13:59:47-05:00 cliente=127.0.0.1:57119 mensajes=1 bytes_recibidos=3 bytes_enviados=3 cierre=ConnectionResetError

@@ -1,0 +1,5 @@
+$ printf "hola\ns\n\nn\n" | python clientep_corregido.py 127.0.0.1 5003   (2.º mensaje VACIO)
+Conectado a 127.0.0.1:5003 desde ('127.0.0.1', 56695)
+Ingrese un mensaje para el servidor: Respuesta del servidor: 'que tal'
+¿Desea enviar otro mensaje? (s/n): Ingrese un mensaje para el servidor: Respuesta del servidor: ''
+¿Desea enviar otro mensaje? (s/n): 

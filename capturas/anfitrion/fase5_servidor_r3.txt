@@ -1,0 +1,13 @@
+[servidor] R3 (un cliente a la vez) en ('0.0.0.0', 5000)
+[servidor] comandos: HORA, ECO <texto>, ESTADISTICAS, ADIOS
+[servidor] conexion desde 127.0.0.1:52155
+[servidor] 52155: 'HORA' -> '2026-09-30T14:10:49-05:00'
+[servidor] 52155: 'ECO hola mundo' -> 'hola mundo'
+[servidor] 52155: 'eco minúsculas también' -> 'minúsculas también'
+[servidor] 52155: 'ESTADISTICAS' -> 'mensajes atendidos desde el arranque: 4'
+[servidor] 52155: 'BORRAR todo' -> 'ERROR comando desconocido'
+[servidor] 52155: 'ADIOS' -> 'ADIOS'
+[servidor] 52155: fin de la conexion
+[servidor] conexion desde 127.0.0.1:52156
+[servidor] 52156: 'ESTADISTICAS' -> 'mensajes atendidos desde el arranque: 7'
+[servidor] 52156: fin de la conexion

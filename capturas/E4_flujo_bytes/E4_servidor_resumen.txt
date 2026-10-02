@@ -1,0 +1,27 @@
+E4 - resumen de lo que imprimio servidor_eco.py (S1) ante cliente_rafaga.py
+Resumido a mano de la salida pegada en el chat. Las lineas "recibidos N bytes" son cada recv() del servidor.
+Orden cronologico. Puerto = puerto efimero del cliente.
+
+Sesion de servidor 1
+ 1. 50134  recv: 3 'uno' | 3 'dos' | 4 'tres'      -> cierre ordenado (recv 0)
+ 2. 47652  recv: 3 'uno' | 3 'dos' | 4 'tres'      -> cierre ordenado
+ 3. 37200  recv: 3 'uno' | 7 'dostres'             -> cierre ordenado
+ 4. 37202  recv: 3 'uno' | 3 'dos' | 4 'tres'      -> cierre ordenado
+ 5. 37208  recv: 3 'uno' | 7 'dostres'             -> ConnectionResetError [Errno 104] (servidor se cae)
+
+Sesion de servidor 2 (reiniciado)
+ 6. 42866  recv: 3 'uno' | 7 'dostres'             -> ConnectionResetError [Errno 104] (servidor se cae)
+
+Sesion de servidor 3 (reiniciado)
+ 7. 42890  recv: 3 'uno' | 7 'dostres'             -> cierre ordenado
+ 8. 42898  recv: 6 'unodos' | 4 'tres'             -> cierre ordenado
+ 9. 42900  recv: 3 'uno' | 7 'dostres'             -> cierre ordenado
+10. 41344  recv: 6 'unodos' | 4 'tres'             -> cierre ordenado
+11. 41348  recv: 3 'uno' | 7 'dostres'             -> ConnectionResetError [Errno 104] (servidor se cae)
+
+Conteo: 11 conexiones.
+  patron (3,3,4) : 3 veces  (1, 2, 4)
+  patron (3,7)   : 6 veces  (3, 5, 6, 7, 9, 11)
+  patron (6,4)   : 2 veces  (8, 10)
+Suma de bytes por conexion: siempre 10 (3+3+4 = 3+7 = 6+4).
+ConnectionResetError: 3 veces (conexiones 5, 6 y 11).

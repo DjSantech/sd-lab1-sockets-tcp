@@ -1,0 +1,13 @@
+$ printf "año ñandú\n\nhola\nsalir\n" | python cliente_r2.py 127.0.0.1 5000
+[cliente] conectando a 127.0.0.1:5000 ...
+[cliente] extremo local  : ('127.0.0.1', 54543)  <- puerto efimero asignado por el S.O.
+[cliente] extremo remoto : ('127.0.0.1', 5000)
+[cliente] cada linea es un mensaje (tambien la linea vacia). Escriba 'salir' para terminar.
+
+> [cliente] enviados  13 bytes: b'a\xc3\xb1o \xc3\xb1and\xc3\xba\n'
+[cliente] respuesta : AÑO ÑANDÚ
+> [cliente] enviados  1 bytes: b'\n'
+[cliente] respuesta : 
+> [cliente] enviados  5 bytes: b'hola\n'
+[cliente] respuesta : HOLA
+> [cliente] socket cerrado

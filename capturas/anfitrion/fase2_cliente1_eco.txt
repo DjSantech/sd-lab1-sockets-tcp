@@ -1,0 +1,12 @@
+$ printf "hola\nmañana\nsalir\n" | python cliente_eco.py 127.0.0.1 5000
+[cliente] conectando a 127.0.0.1:5000 ...
+[cliente] conectado
+[cliente] extremo local  : ('127.0.0.1', 49840)  <- puerto efimero asignado por el S.O.
+[cliente] extremo remoto : ('127.0.0.1', 5000)
+[cliente] escriba un texto y presione Enter. Escriba 'salir' para terminar.
+
+> [cliente] enviados  4 bytes: b'hola'
+[cliente] recibidos 4 bytes: HOLA
+> [cliente] enviados  7 bytes: b'ma\xc3\xb1ana'
+[cliente] recibidos 7 bytes: MAñANA
+> [cliente] socket cerrado

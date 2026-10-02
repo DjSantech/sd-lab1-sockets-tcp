@@ -1,0 +1,3 @@
+$ python referencia/serverp.py   (original, sin modificar)
+    ~~~~~~~~~^^^^^^^^^^^^^^
+OSError: [WinError 10049] La dirección solicitada no es válida en este contexto

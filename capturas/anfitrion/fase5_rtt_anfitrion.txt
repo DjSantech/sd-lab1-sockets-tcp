@@ -1,0 +1,9 @@
+$ python cliente_rtt.py 127.0.0.1 5004   (ANFITRION, loopback: no es la medicion entre VM)
+[rtt] conectado desde ('127.0.0.1', 56694) hacia ('127.0.0.1', 5004)
+[rtt] midiendo 100 mensajes de 10 bytes...
+[rtt] midiendo 100 mensajes de 8000 bytes...
+
+Tamano (B) |    N |  Min (ms) |  Max (ms) | Media (ms)
+-------------------------------------------------------
+        10 |  100 |     0.017 |     0.168 |      0.025
+      8000 |  100 |     0.109 |     0.655 |      0.178

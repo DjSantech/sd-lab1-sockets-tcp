@@ -1,0 +1,3 @@
+$ python -c '<cliente con SO_LINGER=0>'
+[cliente-rst] conectado desde ('127.0.0.1', 57119)
+[cliente-rst] close() con SO_LINGER=0 -> RST, sin leer el eco

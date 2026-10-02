@@ -1,0 +1,2 @@
+$ python cliente_rafaga.py 127.0.0.1 5000 0.5
+[rafaga] ERROR de red: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión

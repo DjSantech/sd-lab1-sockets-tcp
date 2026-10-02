@@ -1,0 +1,15 @@
+$ python cliente_rafaga_r2.py 127.0.0.1 5000 0
+[rafaga] conectado desde ('127.0.0.1', 50755) hacia ('127.0.0.1', 5000)
+[rafaga] pausa entre envios: 0.0 s
+
+[rafaga] send  -> b'uno\n' (4 bytes)
+[rafaga] send  -> b'dos\n' (4 bytes)
+[rafaga] send  -> b'tres\n' (5 bytes)
+
+[rafaga] se enviaron 13 bytes en 3 llamadas a sendall()
+[rafaga] ahora se leen las respuestas linea por linea...
+[rafaga] respuesta 1: 'UNO'
+[rafaga] respuesta 2: 'DOS'
+[rafaga] respuesta 3: 'TRES'
+
+[rafaga] 3 mensajes enviados, 2 llamada(s) a recv() para leer las respuestas

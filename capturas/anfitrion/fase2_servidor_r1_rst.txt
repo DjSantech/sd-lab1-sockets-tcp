@@ -1,0 +1,12 @@
+[servidor] socket de escucha en ('0.0.0.0', 5000)
+[servidor] bitacora: bitacora.log
+[servidor] esperando conexiones... (Ctrl+C para terminar)
+
+[servidor] ---- conexion aceptada ----
+[servidor] extremo local  : ('127.0.0.1', 5000)
+[servidor] extremo remoto : ('127.0.0.1', 57119)  <- getpeername()
+[servidor] recibidos 3 bytes: b'abc'
+[servidor] enviados  3 bytes: b'ABC'
+[servidor] la conexion termino con error: ConnectionResetError
+[servidor] registrado en bitacora.log: {'mensajes': 1, 'bytes_recibidos': 3, 'bytes_enviados': 3}, cierre=ConnectionResetError
+[servidor] conexion cerrada. Vuelvo a accept()

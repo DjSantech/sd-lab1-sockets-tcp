@@ -1,0 +1,11 @@
+# Material del curso (no es mío, no se sube)
+referencia/
+
+# Python
+__pycache__/
+*.pyc
+
+# Archivos temporales
+informe/_exportar.html
+~$*
+.vscode/

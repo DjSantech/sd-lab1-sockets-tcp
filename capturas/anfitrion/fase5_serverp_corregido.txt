@@ -1,0 +1,6 @@
+Servidor escuchando en 0.0.0.0:5003 (Ctrl+C para terminar)
+Conexion establecida desde: 127.0.0.1:56695
+Mensaje recibido del cliente: 'hola'
+Ingrese la respuesta para el cliente: Mensaje recibido del cliente: ''
+Ingrese la respuesta para el cliente: El cliente cerro la conexion
+Esperando otro cliente...

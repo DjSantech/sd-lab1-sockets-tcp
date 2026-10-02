@@ -1,0 +1,20 @@
+[servidor] socket de escucha en ('0.0.0.0', 5000)
+[servidor] esperando conexiones... (Ctrl+C para terminar)
+
+[servidor] ---- conexion aceptada ----
+[servidor] cliente remoto : 127.0.0.1:58380
+[servidor] extremo local  : ('127.0.0.1', 5000)
+[servidor] extremo remoto : ('127.0.0.1', 58380)
+[servidor] socket de escucha sigue siendo: ('0.0.0.0', 5000) (distinto objeto)
+[servidor] recibidos 3 bytes: b'uno'
+[servidor] enviados  3 bytes: b'UNO'
+[servidor] recibidos 7 bytes: b'dostres'
+[servidor] enviados  7 bytes: b'DOSTRES'
+[servidor] socket de escucha cerrado
+Traceback (most recent call last):
+  File "C:\Users\santi\OneDrive\Documentos\Universidad\SISTEMAS DISTRIBUIDOS\Taller_1\SD_Lab1\codigo\base\servidor_eco.py", line 88, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\santi\OneDrive\Documentos\Universidad\SISTEMAS DISTRIBUIDOS\Taller_1\SD_Lab1\codigo\base\servidor_eco.py", line 60, in main
+    datos = conexion.recv(TAM_BUFFER)
+ConnectionAbortedError: [WinError 10053] Se ha anulado una conexión establecida por el software en su equipo host

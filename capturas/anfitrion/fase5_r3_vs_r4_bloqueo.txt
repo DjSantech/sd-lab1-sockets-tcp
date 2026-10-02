@@ -1,0 +1,15 @@
+### Contra servidor_r3.py (un cliente a la vez)
+t= 0.01s A: 'soy A'; A se queda 2 s conectado sin cerrar
+t= 0.20s B: conectado (connect() ya retorno)
+t= 0.20s C: conectado (connect() ya retorno)
+t= 2.01s A: 'ADIOS'
+t= 2.01s C: respuesta 'soy C'
+t= 2.01s B: respuesta 'soy B'
+
+### Contra servidor_r4.py (un hilo por cliente)
+t= 0.01s A: 'soy A'; A se queda 2 s conectado sin cerrar
+t= 0.20s C: conectado (connect() ya retorno)
+t= 0.20s C: respuesta 'soy C'
+t= 0.22s B: conectado (connect() ya retorno)
+t= 0.22s B: respuesta 'soy B'
+t= 2.02s A: 'ADIOS'

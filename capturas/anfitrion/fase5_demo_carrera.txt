@@ -1,0 +1,6 @@
+$ python demo_carrera.py
+8 hilos x 2000 incrementos sobre un mismo contador
+
+1. R3 sin Lock (valor += 1)                esperado=16000  obtenido=16000  perdidos=0  (0.00 s)
+2. R3 sin Lock, ventana ampliada           esperado=16000  obtenido=2124  perdidos=13876  (0.04 s)
+3. R4 con Lock, ventana ampliada           esperado=16000  obtenido=16000  perdidos=0  (0.06 s)

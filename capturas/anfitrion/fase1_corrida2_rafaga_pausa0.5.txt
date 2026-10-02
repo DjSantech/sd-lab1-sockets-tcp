@@ -1,0 +1,13 @@
+$ python cliente_rafaga.py 127.0.0.1 5000 0.5
+[rafaga] conectado desde ('127.0.0.1', 58384) hacia ('127.0.0.1', 5000)
+[rafaga] pausa entre envios: 0.5 s
+
+[rafaga] send  -> b'uno' (3 bytes)
+[rafaga] send  -> b'dos' (3 bytes)
+[rafaga] send  -> b'tres' (4 bytes)
+
+[rafaga] se enviaron 10 bytes en 3 llamadas a sendall()
+[rafaga] ahora UNA sola llamada a recv()...
+[rafaga] recv  <- b'UNODOSTRES' (10 bytes)
+
+[rafaga] Pregunta: los 3 envios llegaron juntos o separados? Por que?

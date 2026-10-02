@@ -1,0 +1,22 @@
+[servidor] socket de escucha en ('0.0.0.0', 5000)
+[servidor] mensajes delimitados por \n, limite 65536 bytes
+[servidor] esperando conexiones... (Ctrl+C para terminar)
+
+[servidor] ---- conexion aceptada desde 127.0.0.1:50755 ----
+[servidor] mensaje #1: 'uno' -> b'UNO\n'
+[servidor] mensaje #2: 'dos' -> b'DOS\n'
+[servidor] recv() #1: 8 bytes b'uno\ndos\n' -> 2 mensaje(s) completo(s), 0 byte(s) esperando su \n
+[servidor] mensaje #3: 'tres' -> b'TRES\n'
+[servidor] recv() #2: 5 bytes b'tres\n' -> 1 mensaje(s) completo(s), 0 byte(s) esperando su \n
+[servidor] fin de la conexion (cierre del cliente): 3 mensaje(s) en 2 recv()
+[servidor] conexion cerrada. Vuelvo a accept()
+
+[servidor] ---- conexion aceptada desde 127.0.0.1:54543 ----
+[servidor] mensaje #1: 'año ñandú' -> b'A\xc3\x91O \xc3\x91AND\xc3\x9a\n'
+[servidor] recv() #1: 13 bytes b'a\xc3\xb1o \xc3\xb1and\xc3\xba\n' -> 1 mensaje(s) completo(s), 0 byte(s) esperando su \n
+[servidor] mensaje #2: '' -> b'\n'
+[servidor] recv() #2: 1 bytes b'\n' -> 1 mensaje(s) completo(s), 0 byte(s) esperando su \n
+[servidor] mensaje #3: 'hola' -> b'HOLA\n'
+[servidor] recv() #3: 5 bytes b'hola\n' -> 1 mensaje(s) completo(s), 0 byte(s) esperando su \n
+[servidor] fin de la conexion (cierre del cliente): 3 mensaje(s) en 3 recv()
+[servidor] conexion cerrada. Vuelvo a accept()
