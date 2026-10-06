@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 servidor_r1.py
+Autor: Santiago Guevara Méndez - Sistemas Distribuidos, UTP (2026-2)
 Laboratorio de Sistemas Distribuidos - Reto R1: registro de conexiones
 Maquina: VM-SERVIDOR
 

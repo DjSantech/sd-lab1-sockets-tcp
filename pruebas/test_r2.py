@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 test_r2.py
+Autor: Santiago Guevara Méndez - Sistemas Distribuidos, UTP (2026-2)
 Pruebas del reto R2 (mensajes delimitados por \\n).
 
 Levanta servidor_r2 en un hilo, en 127.0.0.1 y en un puerto efimero (bind al

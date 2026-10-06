@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*-
 """
 serverp_corregido.py
+Autor de las correcciones: Santiago Guevara Méndez - Sistemas Distribuidos, UTP (2026-2)
+(original: serverp.py, entregado en el material del curso)
 Version corregida de serverp.py (chat por turnos: el cliente escribe, el
 servidor responde lo que teclea su usuario).
 

@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 servidor_r3.py
+Autor: Santiago Guevara Méndez - Sistemas Distribuidos, UTP (2026-2)
 Laboratorio de Sistemas Distribuidos - Reto R3: comandos en lugar de eco
 Maquina: VM-SERVIDOR
 

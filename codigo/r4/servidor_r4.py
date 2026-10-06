@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 servidor_r4.py
+Autor: Santiago Guevara Méndez - Sistemas Distribuidos, UTP (2026-2)
 Laboratorio de Sistemas Distribuidos - Reto R4: varios clientes a la vez
 Maquina: VM-SERVIDOR
 

@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 cliente_r2.py
+Autor: Santiago Guevara Méndez - Sistemas Distribuidos, UTP (2026-2)
 Laboratorio de Sistemas Distribuidos - Reto R2: protocolo con fronteras
 Maquina: VM-CLIENTE
 

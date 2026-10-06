@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 cliente_rafaga_r2.py
+Autor: Santiago Guevara Méndez - Sistemas Distribuidos, UTP (2026-2)
 Laboratorio de Sistemas Distribuidos - Reto R2 (repite el experimento E4)
 Maquina: VM-CLIENTE
 

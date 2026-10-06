@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 demo_carrera.py
+Autor: Santiago Guevara Méndez - Sistemas Distribuidos, UTP (2026-2)
 Reto R4 - por que el contador de ESTADISTICAS necesita un Lock.
 
 Varios hilos llaman incrementar() sobre el MISMO contador, como hacen los

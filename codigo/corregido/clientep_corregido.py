@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*-
 """
 clientep_corregido.py
+Autor de las correcciones: Santiago Guevara Méndez - Sistemas Distribuidos, UTP (2026-2)
+(original: clientep.py, entregado en el material del curso)
 Version corregida de clientep.py (chat por turnos con serverp_corregido.py).
 
 Problemas del original y como se corrigen aqui:
